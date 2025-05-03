@@ -6,10 +6,10 @@ ROMFS_DIR = $(ROOTDIR)/romfs
 
 include $(ROOTDIR)/user/shared/boards.mk
 
-PROJECT_HOME_URL="https:\/\/github.com\/a0575\/padavan\/"
-PROJECT_HOME_URL_MOD="https:\/\/github.com\/a0575\/padavan\/"
+PROJECT_HOME_URL="https:\/\/github.com\/wingcong\/padavan\/"
+PROJECT_HOME_URL_MOD="https:\/\/github.com\/wingcong\/padavan\/"
 
-LABEL_COPYRIGHT_TEXT='© 2011-2021 <a href="https:\/\/github.com\/a0575\/padavan\/" target="blank">Padavan<\/a> \& N56U project community \& by <a href="https:\/\/github.com\/a0575\/padavan\/" target="blank">github<\/a>'
+LABEL_COPYRIGHT_TEXT='© 2011-2021 <a href="https:\/\/github.com\/wingcong\/padavan\/" target="blank">Padavan<\/a> \& N56U project community \& by <a href="https:\/\/github.com\/wingcong\/padavan\/" target="blank">github<\/a>'
 
 BOARD_PATTERN=s/ZVMODELVZ/$(CONFIG_FIRMWARE_PRODUCT_ID)/g
 COPYR_PATTERN=s/ZVCOPYRVZ/$(LABEL_COPYRIGHT_TEXT)/g
